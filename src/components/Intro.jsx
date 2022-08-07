@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Woman from '../img/woman-01.jpg'
+import Woman from '../img/woman-005.png'
 
 const Container = styled.div`
 height: calc(100vh - 50px);
@@ -65,6 +65,7 @@ width: 40%;
 `
 
 const Image = styled.img`
+margin-top: 50px;
 width: 100%;
 `
 
@@ -82,7 +83,7 @@ const Intro = () => {
         </Info>
         </Left>
         
-        <Right><Image src={w}></Image></Right>
+        <Right><Image src={Woman}></Image></Right>
     </Container>
   )
 }
