@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import Intro from './components/Intro';
 import Navbar from './components/Navbar';
+import Feature from './components/Feature';
 
 const Container = styled.div`
   height: 100vh;
@@ -20,11 +21,16 @@ background-color: crimson;
 
 const App = () => {
   return (
+    <>
   <Container>
       <Navbar />
       <Intro />
       <IntroShape />
   </Container>
+  <Container>
+    <Feature />
+  </Container>
+  </>
   )
 }
 export default App;
