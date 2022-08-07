@@ -8,6 +8,7 @@ const Container = styled.div`
 const Wrapper = styled.div`
 padding: 10px 20px;
 display: flex;
+align-items: center;
 justify-content: space-between;
 `
 
@@ -23,8 +24,26 @@ text-decoration: underline crimson;
 `
 
 const Menu = styled.ul`
-display: flex;`;
-const MenuItem = styled.li``;
+display: flex;
+list-style: none;
+`
+
+const MenuItem = styled.li`
+margin-right: 30px;
+font-size: 20px;
+font-weight: bold;
+color: gray;
+`
+
+const Button = styled.button`
+border: 2px solid white;
+padding: 10px 15px;
+background-color: crimson;
+color: white;
+font-weight: bold;
+border-radius: 10px;
+cursor: pointer;
+`
 
 const Navbar = () => {
   return (
@@ -40,9 +59,9 @@ const Navbar = () => {
                 <MenuItem>Contact</MenuItem>
             </Menu>
         </Left>
-        <span>
-        button
-        </span>
+        <Button>
+        JOIN TODAY
+        </Button>
        </Wrapper>
     </Container>
   )
