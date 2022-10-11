@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import App from "../img/app-003.png";
+import App from "../img/girl-transparent.png";
 import AnimatedShapes from "./AnimatedShapes";
 
 const Container = styled.div`
@@ -13,8 +13,8 @@ const Left = styled.div`
 
 const Image = styled.img`
   margin-top: 50px;
-  width: 80%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
 `;
 
 const Right = styled.div`
@@ -26,7 +26,7 @@ const Right = styled.div`
 `;
 
 const Title = styled.span`
-  font-size: 70px;
+  font-size: 65px;
 `;
 const SubTitle = styled.span`
   font-size: 24px;

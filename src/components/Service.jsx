@@ -16,9 +16,8 @@ const Left = styled.div`
 
 const Image = styled.img`
   display: ${(props) => props.open && "none"};
-  margin-top: 20%;
-  margin-left: 80px;
-  width: 70%;
+  margin-top: 30%;
+  width: 90%;
 `;
 
 const Video = styled.video`
@@ -30,7 +29,7 @@ const Video = styled.video`
   right: 0;
   margin: auto;
   @media only screen and (max-width: 480px) {
-    width: 100%;
+    width: 80%;
   }
 `;
 

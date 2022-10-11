@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Woman from "../img/woman-005.png";
+import Woman from "../img/creative.png";
 import AnimatedShapes from "./AnimatedShapes";
 
 const Container = styled.div`
@@ -68,6 +68,7 @@ const Right = styled.div`
 const Image = styled.img`
   margin-top: 100px;
   width: 100%;
+  height: 100%;
 `;
 
 const Intro = () => {
