@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import PriceCard from "./PricCard";
+import PriceCard from "./PriceCard";
 
 const Container = styled.div`
   height: 100%;

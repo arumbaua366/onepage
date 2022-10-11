@@ -37,7 +37,7 @@ const FeatureShape = styled.div`
 const ServiceShape = styled.div`
   ${Shape}
   clip-path: polygon(49% 0%, 100% 0, 100% 100%, 45% 100%);
-  background-color: wheat;
+  background-color: #9de4d8;
 `;
 
 const PriceShape = styled.div`
