@@ -20,13 +20,20 @@ const Wrapper = styled.div`
     flex-direction: column;
   }
 `;
+
 const FormContainer = styled.div`
   width: 50%;
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+  }
 `;
 
 const Title = styled.h1`
-  margin 50px;
+  margin: 50px;
   margin-top: 0;
+  @media only screen and (max-width: 480px) {
+    margin: 40px;
+  }
 `;
 
 const Form = styled.form`
@@ -34,6 +41,9 @@ const Form = styled.form`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media only screen and (max-width: 480px) {
+    flex-direction: column;
+  }
 `;
 
 const LeftForm = styled.div`
@@ -96,21 +106,35 @@ const AddressContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    margin-top: 20px;
+  }
 `;
 
 const AddressItem = styled.div`
   display: flex;
   align-items: center;
   margin-bottom: 50px;
+  @media only screen and (max-width: 480px) {
+    margin-bottom: 20px;
+  }
 `;
 
 const Icon = styled.img`
   width: 20px;
   margin-right: 20px;
+  @media only screen and (max-width: 480px) {
+    width: 15px;
+  }
 `;
+
 const Text = styled.span`
   font-size: 20px;
   margin-right: 15px;
+  @media only screen and (max-width: 480px) {
+    font-size: 14px;
+  }
 `;
 
 const Contact = () => {
@@ -119,7 +143,7 @@ const Contact = () => {
       <Wrapper>
         <FormContainer>
           <Title>
-            Questions? <br /> Let's Chat!
+            Questions? <br /> Reach Out to Us!
           </Title>
           <Form>
             <LeftForm>
